@@ -1,0 +1,31 @@
+name: gps_tracker
+description: "A Flutter application for tracking drain networks with Google Maps integration."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.0
+  firebase_database: ^10.3.2
+  google_maps_flutter: ^2.8.2
+  json_annotation: ^4.8.1
+  geocoding: ^2.0.0
+  http: ^1.1.0
+  google_fonts: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/drain_topology.json
+    - assets/background.jpg
